@@ -1,0 +1,8 @@
+[debug] [2020-06-03T18:08:50.987Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T18:08:50.990Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Buddhika\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2020-06-03T18:08:50.990Z] CLI Version:   7.14.0
+[debug] [2020-06-03T18:08:50.990Z] Platform:      win32
+[debug] [2020-06-03T18:08:50.990Z] Node Version:  v12.16.1
+[debug] [2020-06-03T18:08:50.991Z] Time:          Wed Jun 03 2020 23:38:50 GMT+0530 (India Standard Time)
+[debug] [2020-06-03T18:08:50.991Z] ----------------------------------------------------------------------
+[debug] [2020-06-03T18:08:50.991Z] 
