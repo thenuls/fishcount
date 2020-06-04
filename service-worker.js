@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Shrimp-Counter-App/precache-manifest.4a1c3e9bfa3bcff20f8ce95dceba26e9.js"
+  "/fishcount/precache-manifest.4a1c3e9bfa3bcff20f8ce95dceba26e9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "shrimp-counter"});
