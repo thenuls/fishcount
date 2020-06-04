@@ -1,4 +1,4 @@
-# shrimp-counter
+# fishcount
 
 ## Using computer vision to identify and count Shrimps.
 
