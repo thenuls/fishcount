@@ -5,17 +5,17 @@ Vue.use(VueI18n)
 
 const messages = {
   'en': {
-    'subtitle': 'Using computer vision to identify and count mosquito eggs.',
-    'description': "This is a proof-of-concept web app to develop a way to algorithmically detect mosquito eggs and egg cluster on ovitrap paper using computer vision. Try out the app using the 'demo' image -- or check out the guide for more information.",
+    'subtitle': 'Using computer vision to identify and count shrimps.',
+    'description': "This is a proof-of-concept web app to develop a way to algorithmically detect shrimps and egg cluster on ovitrap paper using computer vision. Try out the app using the 'demo' image -- or check out the guide for more information.",
     'Select Image': 'Select Image',
     'Demo Image': 'Demo Image',
     'Select the ovitrap image type': 'Select the ovitrap image type',
     'Paper Strip': 'Paper Strip',
-    'Paper-Description': 'Ovitrap paper is rectangular in shape (approx. 32cm X 8cm), on white pellon fabric with gray-black mosquito eggs.',
+    'Paper-Description': 'Ovitrap paper is rectangular in shape (approx. 32cm X 8cm), on white pellon fabric with gray-black shrimps.',
     'Magnified': 'Magnified',
-    'Magnified-Description': 'Ovitrap paper is less narrow than a paper strip, on white pellon fabric with gray-black mosquito eggs that appear larger in the image.',
+    'Magnified-Description': 'Ovitrap paper is less narrow than a paper strip, on white pellon fabric with gray-black shrimps that appear larger in the image.',
     'Microscope': 'Microscope',
-    'Microscope-Description': 'Image is square, and mosquito eggs are clearly visible as large objects.',
+    'Microscope-Description': 'Image is square, and shrimps are clearly visible as large objects.',
     'Rotate': 'Rotate',
     'Remove': 'Remove',
     'Analyze': 'Analyze',
