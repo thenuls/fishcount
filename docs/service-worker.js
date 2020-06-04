@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-    "/Shrimp-Counter-App/precache-manifest.c34d79a2e8a8f1ad6f19fbbd7a9f7113.js"
+    "/fishcount/precache-manifest.c34d79a2e8a8f1ad6f19fbbd7a9f7113.js"
 );
 
 workbox.core.setCacheNameDetails({ prefix: "mec-vision" });

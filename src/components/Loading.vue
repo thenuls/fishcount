@@ -12,7 +12,7 @@
       <v-card-text>
         <v-layout align-center>
         <v-avatar id="bot" tile size="24" class="mr-2">
-              <v-img src="/Shrimp-Counter-App/img/bot.gif"></v-img></v-avatar>
+              <v-img src="/fishcount/img/bot.gif"></v-img></v-avatar>
         {{ $t('Analyzing Image...') }}
         </v-layout>
         <v-progress-linear

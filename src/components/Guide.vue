@@ -8,9 +8,9 @@
         <div>
           <h3 class="headline mb-2">Overview</h3>
           <div>
-            <p>Shrimp-Counter-App is a Progressive Web App (PWA) that uses computer vision (object detection) to estimate the number of mosquito eggs on ovitrap paper.</p>
+            <p>fishcount is a Progressive Web App (PWA) that uses computer vision (object detection) to estimate the number of mosquito eggs on ovitrap paper.</p>
             <p>This website will work with most smartphones (iOS and Android), as well as desktop and laptop computers. The website, because it is a PWA, behaves in many ways like a native phone app, which allows it to be used offline, to use a phone's photos and camera, and to allow it to be placed on a phone home screen, alongside native apps.</p>
-            <p>The algorithmic processing of the app uses a tool known as "OpenCV" (Open Computer Vision) which analyzes an image in order to highlight contrast, detect edges, find contours of objects within an image, and to make calculations based on that analysis. For Shrimp-Counter-App, we use several algorithmic procedures tied together, in order to isolate the mosquito egg items and count them separately.</p>
+            <p>The algorithmic processing of the app uses a tool known as "OpenCV" (Open Computer Vision) which analyzes an image in order to highlight contrast, detect edges, find contours of objects within an image, and to make calculations based on that analysis. For fishcount, we use several algorithmic procedures tied together, in order to isolate the mosquito egg items and count them separately.</p>
           </div>
         </div>
       </v-card-title>
@@ -23,7 +23,7 @@
     <v-card>
       <v-card-title primary-title>
         <div>
-          <h3 class="headline mb-2">Using Shrimp-Counter-App</h3>
+          <h3 class="headline mb-2">Using fishcount</h3>
           <div>
             <h3>1. Load an Image</h3>
             <p>The app (or website) is very simple. Once it loads onto a device's web-browser, it loads all of the app code it needs to operate so that no information will be sent to a remote server or database -- everything is happening on the device to which it is loaded.</p>
@@ -58,9 +58,9 @@
             <h3>Egg Paper Type and Quality</h3>
             <p>There is a lot of variation in egg paper (ovitrap paper), and so try to have a consistent process throughout the various counts. Ensure that the egg paper is as flat as possible, with as few folds and wrinkles in the paper, as this causes shadows which may be misidentified as eggs. Additionally, try to use a background color that is different than the egg paper, as this will make it easier to crop the picture within the app.</p>
             <h3>Consistency and the Algorithm</h3>
-            <p>The Shrimp-Counter-App app works best when used in a controlled and consistent environment. The best types of images are ones that are consist in all their qualities except for the number of eggs on the paper, which the app should capture differently. The app itself is susceptible to changes in lighting, focus, and processing demands, and so there will be some small variation from picture to picture (similar to human counts!) The best ways to ensure consistency is to focus on finding a consistent process, and then using consistent filtering and thresholding values that match the image environment.</p>
+            <p>The fishcount app works best when used in a controlled and consistent environment. The best types of images are ones that are consist in all their qualities except for the number of eggs on the paper, which the app should capture differently. The app itself is susceptible to changes in lighting, focus, and processing demands, and so there will be some small variation from picture to picture (similar to human counts!) The best ways to ensure consistency is to focus on finding a consistent process, and then using consistent filtering and thresholding values that match the image environment.</p>
             <h3>A Note about Data Retention</h3>
-            <p>The app, because it is a web app, does <em>not</em> save data locally to a device, and it is never sent to a server or external database. Once the page is refreshed, the previous data is erased. It is much like a functional calculator in this way, with no history. Ensure that your counting process is consistent and is collected in another location prior to adapting the Shrimp-Counter-App app entirely!</p>
+            <p>The app, because it is a web app, does <em>not</em> save data locally to a device, and it is never sent to a server or external database. Once the page is refreshed, the previous data is erased. It is much like a functional calculator in this way, with no history. Ensure that your counting process is consistent and is collected in another location prior to adapting the fishcount app entirely!</p>
           </div>
         </div>
       </v-card-title>

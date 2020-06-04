@@ -10,7 +10,7 @@ The remaining component files are separated for organizational purposes (About, 
 <app-toolbar></app-toolbar>
 
 <!-- This operates mainly as a single-page app (SPA), where the client-side view is controlled by the 'router-view' component.
-The ':key' here is used to reset the app either through the reset button, or through clicking on the Shrimp-Counter-App logo.
+The ':key' here is used to reset the app either through the reset button, or through clicking on the fishcount logo.
 The loading dialogue only fires after the analysis button is clicked -- but it stays here as it is an app-wide view. -->
 <v-content>
   <router-view :key="componentKey"></router-view>
@@ -28,7 +28,7 @@ import AppToolbar from './components/Toolbar.vue'
 import LoadingDialogue from './components/Loading.vue'
 
 export default {
-  name: 'Shrimp-Counter-App',
+  name: 'fishcount',
   components: {
     AppToolbar,
     LoadingDialogue

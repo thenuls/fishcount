@@ -145,7 +145,7 @@
         </v-tooltip>
 
         <v-flex>
-          <canvas id="legendCanvas" style="margin: auto; display: block;"><img id="legendImage" src="/Shrimp-Counter-App/img/legend.png" /></canvas>
+          <canvas id="legendCanvas" style="margin: auto; display: block;"><img id="legendImage" src="/fishcount/img/legend.png" /></canvas>
         </v-flex>
       </v-layout>
 

@@ -8,9 +8,9 @@
         <div>
           <h3 class="headline mb-2">Visión General</h3>
           <div>
-            <p>Shrimp-Counter-App es una aplicación web progresiva (PWA) que utiliza la visión por computadora (detección de objetos) para estimar la cantidad de huevos de mosquito en papel ovitraprap.</p>
+            <p>fishcount es una aplicación web progresiva (PWA) que utiliza la visión por computadora (detección de objetos) para estimar la cantidad de huevos de mosquito en papel ovitraprap.</p>
             <p>Este sitio web funcionará con la mayoría de los teléfonos inteligentes (iOS y Android), así como con computadoras de escritorio y portátiles. El sitio web, debido a que es una PWA, se comporta de muchas maneras como una aplicación de teléfono nativa, lo que permite que se use sin conexión, para usar las fotos y la cámara de un teléfono, y para permitir que se coloque en la pantalla de inicio de un teléfono, junto con la aplicación nativa aplicaciones.</p>
-            <p>El procesamiento algorítmico de la aplicación utiliza una herramienta conocida como "OpenCV" (Open Computer Vision) que analiza una imagen para resaltar el contraste, detectar bordes, encontrar contornos de objetos dentro de una imagen y hacer cálculos basados en ese análisis. Para Shrimp-Counter-App, utilizamos varios procedimientos algorítmicos unidos, para aislar los elementos de huevo de mosquito y contarlos por separado.</p>
+            <p>El procesamiento algorítmico de la aplicación utiliza una herramienta conocida como "OpenCV" (Open Computer Vision) que analiza una imagen para resaltar el contraste, detectar bordes, encontrar contornos de objetos dentro de una imagen y hacer cálculos basados en ese análisis. Para fishcount, utilizamos varios procedimientos algorítmicos unidos, para aislar los elementos de huevo de mosquito y contarlos por separado.</p>
           </div>
         </div>
       </v-card-title>
@@ -23,7 +23,7 @@
     <v-card>
       <v-card-title primary-title>
         <div>
-          <h3 class="headline mb-2">Usando Shrimp-Counter-App</h3>
+          <h3 class="headline mb-2">Usando fishcount</h3>
           <div>
             <h3>1. Cargar una Imagen</h3>
             <p>La aplicación (o sitio web) es muy simple. Una vez que se carga en el navegador web de un dispositivo, carga todo el código de la aplicación que necesita para funcionar, de modo que no se envíe información a un servidor remoto o base de datos; todo está sucediendo en el dispositivo en el que se carga.</p>
@@ -58,9 +58,9 @@
             <h3>Tipo de Papel de Huevo y Calidad</h3>
             <p>Hay mucha variación en el papel de huevo (papel ovitrap) y, por lo tanto, trate de tener un proceso constante a lo largo de los diversos recuentos. Asegúrese de que el papel de huevo sea lo más plano posible, con el menor número de pliegues y arrugas en el papel, ya que esto causa sombras que pueden ser mal identificadas como huevos. Además, intente utilizar un color de fondo que sea diferente al papel de huevo, ya que esto facilitará el recorte de la imagen dentro de la aplicación.</p>
             <h3>La Consistencia y el Algoritmo</h3>
-            <p>La aplicación Shrimp-Counter-App funciona mejor cuando se usa en un entorno controlado y consistente. Los mejores tipos de imágenes son las que consisten en todas sus cualidades, excepto la cantidad de huevos en el papel, que la aplicación debería capturar de manera diferente. La aplicación en sí es susceptible a cambios en la iluminación, el enfoque y las demandas de procesamiento, por lo que habrá una pequeña variación de una imagen a otra (¡similar a los recuentos humanos!). Las mejores formas de garantizar la coherencia es centrarse en encontrar un proceso coherente, y luego usando valores consistentes de filtrado y umbral que coinciden con el entorno de la imagen.</p>
+            <p>La aplicación fishcount funciona mejor cuando se usa en un entorno controlado y consistente. Los mejores tipos de imágenes son las que consisten en todas sus cualidades, excepto la cantidad de huevos en el papel, que la aplicación debería capturar de manera diferente. La aplicación en sí es susceptible a cambios en la iluminación, el enfoque y las demandas de procesamiento, por lo que habrá una pequeña variación de una imagen a otra (¡similar a los recuentos humanos!). Las mejores formas de garantizar la coherencia es centrarse en encontrar un proceso coherente, y luego usando valores consistentes de filtrado y umbral que coinciden con el entorno de la imagen.</p>
             <h3>Una Nota Sobre la Retención de Datos</h3>
-            <p>La aplicación, debido a que es una aplicación web, no guarda datos localmente en un dispositivo, y nunca se envía a un servidor o base de datos externa. Una vez que se actualiza la página, se borran los datos anteriores. Es muy parecido a una calculadora funcional de esta manera, sin historial. ¡Asegúrese de que su proceso de conteo sea consistente y se recopile en otra ubicación antes de adaptar completamente la aplicación Shrimp-Counter-App!</p>
+            <p>La aplicación, debido a que es una aplicación web, no guarda datos localmente en un dispositivo, y nunca se envía a un servidor o base de datos externa. Una vez que se actualiza la página, se borran los datos anteriores. Es muy parecido a una calculadora funcional de esta manera, sin historial. ¡Asegúrese de que su proceso de conteo sea consistente y se recopile en otra ubicación antes de adaptar completamente la aplicación fishcount!</p>
           </div>
         </div>
       </v-card-title>

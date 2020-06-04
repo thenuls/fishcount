@@ -5,7 +5,7 @@
 
   <v-toolbar-title class="text-uppercase white--text" style="cursor: pointer">
     <v-layout align-center  @click="rerender()">
-    <v-avatar tile size="20" class="mx-2"><img src="/Shrimp-Counter-App/img/bot.png" /></v-avatar>
+    <v-avatar tile size="20" class="mx-2"><img src="/fishcount/img/bot.png" /></v-avatar>
     <span class="font-weight-black">Shrimp</span><span class="font-weight-thin">Counter</span>
     </v-layout>
   </v-toolbar-title>
