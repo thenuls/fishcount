@@ -1,0 +1,19 @@
+{
+    "name": "Shrimp-Counter-App",
+    "short_name": "Shrimp-Counter-App",
+    "icons": [{
+            "src": "/Shrimp-Counter-App/img/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/Shrimp-Counter-App/img/icons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/Shrimp-Counter-App/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#4DBA87"
+}
