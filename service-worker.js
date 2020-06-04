@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fishcount/precache-manifest.4a1c3e9bfa3bcff20f8ce95dceba26e9.js"
+  "/fishcount/precache-manifest.bb5ccaa9ca20d9907cbab4ed517dc628.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "shrimp-counter"});
+workbox.core.setCacheNameDetails({prefix: "fishcount"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
