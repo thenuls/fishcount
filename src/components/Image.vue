@@ -31,7 +31,7 @@
         <v-flex xs12 md4>
           <v-item>
             <v-card slot-scope="{ active, toggle }" :style="active ? 'border: 2px solid var(--v-primary-base)' : ''" :class="active ? 'elevation-5' : ''" @click="toggle(), resetCroppa()">
-              <v-img src="/fishcount/img/type-magnified-thumb.jpg" aspect-ratio="2.00"></v-img>
+              <v-img src="/fishcount/img/type-magnified-thumb.jpg" aspect-ratio="1.00"></v-img>
               <v-card-title primary-title>
                 <div>
                   <h3 class="headline mb-0">{{ $t('Magnified') }}</h3>
@@ -45,7 +45,7 @@
         <v-flex xs12 md4>
           <v-item>
             <v-card slot-scope="{ active, toggle }" :style="active ? 'border: 2px solid var(--v-primary-base)' : ''" :class="active ? 'elevation-5' : ''" @click="toggle(), resetCroppa()">
-              <v-img src="/fishcount/img/type-microscope-thumb.jpg" aspect-ratio="2.00"></v-img>
+              <v-img src="/fishcount/img/type-microscope-thumb.jpg" aspect-ratio="1.00"></v-img>
               <v-card-title primary-title>
                 <div>
                   <h3 class="headline mb-0">{{ $t('Microscope') }}</h3>
