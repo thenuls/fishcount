@@ -1,4 +1,4 @@
-const manifestJSON = require('./public/manifest.json')
+const manifestJSON = require('./dist/manifest.json')
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production' ?

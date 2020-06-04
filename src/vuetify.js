@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import manifestJSON from '../public/manifest.json'
+import manifestJSON from '../dist/manifest.json'
 import * as easings from 'vuetify/es5/util/easing-patterns'
 
 import {
