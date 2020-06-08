@@ -295,8 +295,8 @@ export default {
       ],
       analysisStarted: false,
       analysisComplete: false,
-      threshValue: 120,
-      minEggRadius: 5,
+      threshValue: 85,
+      minEggRadius: 1,
       maxEggRadius: 13,
       maxEggCluster: 30,
       singlesCount: 0,
@@ -321,18 +321,18 @@ export default {
   created () {
     eventBus.$on('imageType', (imageType) => {
       if (imageType === 0) {
-        this.threshValue = 116
-        this.minEggRadius = 1
-        this.maxEggRadius = 8
-        this.maxEggCluster = 8
-      } else if (imageType === 1) {
-        this.threshValue = 120
-        this.minEggRadius = 5
-        this.maxEggRadius = 13
+        this.threshValue = 51
+        this.minEggRadius = 6
+        this.maxEggRadius = 50
         this.maxEggCluster = 30
+      } else if (imageType === 1) {
+        this.threshValue = 85
+        this.minEggRadius = 1
+        this.maxEggRadius = 14
+        this.maxEggCluster = 38
       } else {
-        this.threshValue = 120
-        this.minEggRadius = 4
+        this.threshValue = 85
+        this.minEggRadius = 1
         this.maxEggRadius = 14
         this.maxEggCluster = 20
       }
