@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fishcount/precache-manifest.77968c90043347c4f203f8b20533e5f2.js"
+  "/fishcount/precache-manifest.3dac75c7e940e2a2a6594f751a3ac2a6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fishcount"});
