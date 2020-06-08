@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "eb126554e33323094dcf",
-    "url": "/fishcount/css/app.851ae1fd.css"
+    "revision": "c471a0f104ceaa2f3036",
+    "url": "/fishcount/css/app.f115216e.css"
   },
   {
-    "revision": "eb126554e33323094dcf",
-    "url": "/fishcount/js/app.bc75ff63.js"
+    "revision": "c471a0f104ceaa2f3036",
+    "url": "/fishcount/js/app.abc23d41.js"
   },
   {
     "revision": "2864431e97291a33b06e",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/fishcount/js/chunk-vendors.431ca444.js"
   },
   {
-    "revision": "167cabbb437be58176019d1a73947da5",
+    "revision": "7674d90254204bf23938e622aef1a412",
     "url": "/fishcount/index.html"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/fishcount/img/type-magnified.jpg"
   },
   {
-    "revision": "dc002240608f3369a8aefff1777f0d89",
-    "url": "/fishcount/img/type-microscope-thumb.jpg"
-  },
-  {
     "revision": "369ff031461212415351e5aa09200099",
     "url": "/fishcount/img/type-microscope.jpg"
+  },
+  {
+    "revision": "dc002240608f3369a8aefff1777f0d89",
+    "url": "/fishcount/img/type-microscope-thumb.jpg"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
