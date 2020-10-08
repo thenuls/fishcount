@@ -1,3 +1,5 @@
+- When a fish swims through the net of light beams, the resulting silhouette image is used for counting as well as estimating the size of each fish. Each individual image is memorized in the control unit so that the counting can be verified afterwards.
+
 # fishcount
 
 ## Using computer vision to identify and count Shrimps.
