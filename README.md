@@ -29,3 +29,4 @@ npm run serve
 ```
 npm run build
 ```
+This is an android app basically, developed to count shrimps in a particular area , but other than shrimps you are able to use it for other tiny objects like , fish, eggs and so on.
